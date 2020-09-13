@@ -1,0 +1,13 @@
+package br.com.jms;
+
+import org.apache.activemq.broker.Connection;
+
+public class TesteConsumer {
+
+	public static void main(String[] args) {
+		
+		Connection
+
+	}
+
+}

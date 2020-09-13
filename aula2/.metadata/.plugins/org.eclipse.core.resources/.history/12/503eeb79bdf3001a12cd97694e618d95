@@ -1,0 +1,11 @@
+package br.com.jms;
+
+public class TesteConsumidor {
+
+	public static void main(String[] args) {
+		
+		InitialContex contex = new InitialContex();
+
+	}
+
+}

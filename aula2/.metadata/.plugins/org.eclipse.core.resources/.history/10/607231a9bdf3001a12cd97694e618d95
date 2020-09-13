@@ -1,0 +1,14 @@
+package br.com.jms;
+
+import javax.jms.ConnectionFactory;
+import javax.naming.InitialContext;
+
+public class TesteConsumidor {
+
+	public static void main(String[] args) throws Exception {
+		
+		InitialContext context = new InitialContext();
+		ConnectionFactory cf = context.lookup("ConnectionFactory");
+	}
+
+}

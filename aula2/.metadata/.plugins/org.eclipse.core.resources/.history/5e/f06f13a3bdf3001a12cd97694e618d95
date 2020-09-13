@@ -1,0 +1,13 @@
+package br.com.jms;
+
+import javax.naming.InitialContext;
+
+public class TesteConsumidor {
+
+	public static void main(String[] args) throws Exception {
+		
+		InitialContext context = new InitialContext();
+
+	}
+
+}

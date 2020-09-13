@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TesteConsumidorFila.java&apos; to &apos;br.com.caelum.jms.TesteConsumidorFila.java&apos;&#x0A;- Original project: &apos;jms&apos;&#x0A;- Destination element: &apos;br.com.caelum.jms.TesteConsumidorFila.java&apos;&#x0A;- Original element: &apos;br.com.caelum.jms.TesteConsumidorFila.java&apos;" description="Copy compilation unit" destination="/src&lt;br.com.caelum.jms{TesteConsumidorFila.java" element1="/src&lt;br.com.caelum.jms{TesteConsumidorFila.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1600020416967" units="1" version="1.0"/>
+</session>

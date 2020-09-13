@@ -1,0 +1,17 @@
+package br.com.jms;
+
+import javax.jms.ConnectionFactory;
+import javax.naming.InitialContext;
+
+public class TesteConsumer {
+
+	public static void main(String[] args) {
+		
+		InitialContext contex = new InitialContext();
+		
+		ConnectionFactory factory = (ConnectionFactory)contex.lookup("ConnectionFactory");
+		Connection connection = factory.createConnection();
+
+	}
+
+}

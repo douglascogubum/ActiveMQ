@@ -1,0 +1,28 @@
+package br.com.jms;
+
+import java.util.Scanner;
+
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+import javax.jms.MessageConsumer;
+import javax.naming.InitialContext;
+
+public class TesteConsumer {
+
+	public static void main(String[] args) throws Exception {
+		
+		InitialContext contex = new InitialContext();
+		
+		ConnectionFactory factory = (ConnectionFactory)contex.lookup("ConnectionFactory");
+		Connection connection = factory.createConnection();
+		connection.start();
+		
+		MessageConsumer consumer = 
+		
+		new Scanner(System.in).nextLine();
+		
+		
+		connection.close();
+		contex.close();
+	}
+}
